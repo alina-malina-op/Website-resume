@@ -13,3 +13,9 @@ li{
     margin: 0;
     padding: 0;
 }
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto; /*центрирую*/
+    padding: 0 15px; /*верх низ - нет отступа, лево право - 15px(чтобы не прилипало)*/
+}
