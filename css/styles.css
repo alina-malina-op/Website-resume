@@ -19,3 +19,7 @@ li{
     margin: 0 auto; /*центрирую*/
     padding: 0 15px; /*верх низ - нет отступа, лево право - 15px(чтобы не прилипало)*/
 }
+
+.header_top{
+    background-color: #303030;
+}
