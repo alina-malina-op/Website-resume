@@ -6,3 +6,10 @@ a{
     text-decoration: none;
     display: inline-block; /*обычно ссылки строчно-блочные*/
 }
+
+ul,
+li{
+    list-style: none;  /*отключила маркеры*/
+    margin: 0;
+    padding: 0;
+}
