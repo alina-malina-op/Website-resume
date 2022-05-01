@@ -20,6 +20,15 @@ li{
     padding: 0 15px; /*верх низ - нет отступа, лево право - 15px(чтобы не прилипало)*/
 }
 
+body{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5e5e;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
 .header_top{
     background-color: #303030;
 }
