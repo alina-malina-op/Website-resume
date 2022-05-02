@@ -52,4 +52,12 @@ header {
     /*перемещается чтобы очистить левые и правые поплавки(..стороны)*/
     display: block;
 }
+.header_phone,
+.header_email {
+    color: #cbcacb;
+    letter-spacing: 0.25px;
+    /*расстояние между буквами*/
+    line-height: 45px;
+    /*высота строки*/
+}
 }
