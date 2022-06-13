@@ -229,7 +229,6 @@ body {
 
 
 
-
 .skills {
     margin-top: -200px;
 }
@@ -564,8 +563,12 @@ body {
     font-size: 20px;
 }
 
+.resume{
+    text-align: center;
+}
 
-#modal {
+
+/* #modal {
     display: none;
 }
 
@@ -599,4 +602,4 @@ body {
     background-color: transparent;
     color: #ffffff;
     font-weight: 100;
-}
+} */
