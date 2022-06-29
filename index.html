@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alina|Front-end Developer</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/9e081a8024/UntitledProject/style.css">
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/7c3d87ea68/UntitledProject/style.css">    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/jquery.formstyler.css">
     <link rel="stylesheet" href="css/up.button.css">
@@ -21,11 +20,11 @@
 <body>
 
 
-    <div class="intro">
+    <!-- <div class="header__intro"> -->
 
-        <div class="video">
+        <!-- <div class="video">
             <video class="video__media" src="video/video.mp4" autoplay muted loop></video>
-        </div>
+        </div> -->
         <header class="header" id="page-top">
             <!-- <video loop="" muted="" autoplay="" class="fullscreen-bg__video">
             <source src="https://cdn.create.vista.com/api/media/medium/216669864/stock-video-random-binary-green-numbers-scrolling?token=">
@@ -38,6 +37,9 @@
                         </a>
                     </div>
                     <nav class="menu">
+                        <div class="header__menu-media">
+                            <span class="icon-align-justify"></span>
+                        </div>
                         <ul>
                             <li><a class="btn__menu-color" target="_blank" href="resume/resume.html">Resume</a></li>
                             <li><a class="btn__menu-color scrollto" href="#about">About me</a></li>
@@ -67,7 +69,7 @@
             </div>
 
         </header>
-    </div>
+    <!-- </div> -->
 
 
     <section class="about" id="about">
@@ -141,9 +143,54 @@
 
     <section class="projects" id="project">
         <div class="container">
-            <div class="projects__title">My Recent Work</div>
-            <!-- <div class="projects__text">Here are a few design projects I've worked on recently -->
-                <!-- me.</div> -->
+            <div class="projects__title">My Works</div>
+            <div class="projects__text">There is almost nothing here, but it will appear soon:_)</div>
+
+
+                <div class="slider" id="project">
+                    <div class="container">
+                        <div class="slider_inner">
+                            <div class="slider_item slider_item-img1">
+                                <!-- <img class="projects__img projects__img-media" src="img/travel.jpg" alt=""> -->
+                                <div class="projects__content-media">
+                                        <div class="projects__title-media">
+                                            Layout using javascript frameworks + a little javascript.
+                                        </div>
+                                        <a class="btn__media" target="_blank"
+                                            href="https://github.com/alina-malina-op/Project-travel">
+                                            <span>View GitHub</span>
+                                        </a>
+                                </div>
+                            </div>
+            
+                            <div class="slider_item slider_item-img2">
+                                <!-- <img class="projects__img projects__img-media" src="img/form.jpg" alt=""> -->
+                                <div class="projects__content-media">
+                                        <div class="projects__title-media">
+                                            The form for sending messages on the javascript and nodeJS.
+                                        </div>
+                                        <a class="btn__media" target="_blank" href="#">
+                                            <span>View GitHub</span>
+                                        </a>
+                                </div>
+                            </div>
+            
+                            <div class="slider_item slider_item-img3">
+                                <!-- <img class="projects__img projects__img-media" src="img/err.jpg" alt=""> -->
+                                <div class="projects__content-media">
+                                        <div class="projects__title-media">
+                                            React JavaScript React JavaScript React JavaScript React
+                                        </div>
+                                        <a class="btn__media-err" onclick="return false;" href="#">
+                                            <span>In development</span>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             <div class="projects__grid">
                 <div class="columns">
                     <div class="column">
@@ -183,7 +230,7 @@
                             <div class="projects__hover">
                                 <figcaption class="projects__hover-content">
                                     <div class="projects__title-column">
-                                        React JavaScript React JavaScript React JavaScript React JavaScript
+                                        React JavaScript React JavaScript React JavaScript React
                                     </div>
                                     <a class="btn__column-err" onclick="return false;" href="#">
                                         <span>In development</span>
@@ -205,7 +252,7 @@
                 <a href="mailto:sergeevnaal228@gmail.com">sergeevnaal228@gmail.com</a>
             </div>
         </div>
-        <div class="container">
+        <div class="container container__footer-content">
             <div class="hello__btn-content">
                 <a data-fancybox data-src="#modal" href="javascript:;" class="hello__btn" href="#">
                     <span>Say Hello!</span>

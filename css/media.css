@@ -1,4 +1,349 @@
-@media (max-width: 1156px) {
+@media (max-width: 1400px) {
+    .header__img-item {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .header__img-item {
+        margin: 15px;
+    }
+    .header__bottom {
+        padding-top: 80px;
+        max-height: 560px;
+    }
+
+    .column{
+        margin: 0px -8px 24px;
+    }
+
+    .projects__img-box{
+        margin-left: -163px;
+    }
+    .projects__img{
+        width: 330px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container__box {
+        max-width: 1003px;
+    }
+
+    .skills__text-languages li,
+    .skills__text-tools li{
+        margin: 7px 13px 0px 0px
+    }
+
+    .projects__img-box{
+        margin-left: -149px;
+    }
+    .projects__img{
+        width: 300px;
+        height: 230px;
+    }
+    .column{
+        margin: 0px -31px 24px;
+    }
+}
+
+@media (max-width: 1152px) {
+
+    .header__img-one,
+    .header__img-five {
+        display: none;
+    }
+
+    .header__img-item {
+        margin: 70px;
+    }
+}
+
+@media (max-width: 1020px) {
+    #pocik img {
+        max-width: 436px;
+        margin: 18px 27px;
+    }
+
+    .column{
+        margin: 0px -48px 24px;
+    }
+
+    .projects__img-box{
+        margin-left: -138px;
+    }
+    .projects__img{
+        width: 275px;
+        height: 195px;
+    }
+}
+
+@media (max-width: 901px) {
+    .header__img-item {
+        margin: 30px;
+    }
+
+    .slider{
+        display: block;
+    }
+    
+    .projects__grid{
+        display: none;
+    }
+
+    .projects__img{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 864px) {
+    .header__logo {
+        margin: 0px -35px;
+    }
+
+    .menu {
+        margin: 0px -20px;
+    }
+
+    .container__box {
+        max-width: 740px;
+    }
+    #pocik img{
+        max-width: 393px;
+    }
+}
+
+@media (max-width: 801px) {
+    .header__menu-media {
+        display: block;
+        font-size: 37px;
+        margin: 15px;
+    }
+
+    .icon-align-justify {
+        color: #bb12a4;
+    }
+
+    .menu ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        /* margin-top: 20px; */
+        z-index: 50;
+        /*может слайдер закрыть*/
+    }
+
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .menu a {
+        display: block;
+        background-color: #bb12a4;
+        border-radius: 30px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    .menu li+li {
+        padding-left: 0;
+    }
+
+    .help__btn {
+        color: #fff;
+    }
+}
+
+@media (max-width: 720px) {
+    .header__img-item {
+        margin: 15px;
+    }
+
+    .header__bottom {
+        padding-top: 50px;
+        max-height: 470px;
+    }
+
+    .skills__title-languages,
+    .skills__title-tools{
+        margin: 0px 0px 15px;
+    }
+}
+
+@media (max-width: 660px) {
+    .header__img-item {
+        margin: 70px;
+    }
+
+    .header__img-two,
+    .header__img-four {
+        display: none;
+    }
+
+    .header__text {
+        margin-bottom: 0px
+    }
+
+    .about__title {
+        margin-top: 42px;
+    }
+
+    .about__text {
+        margin-bottom: 200px;
+    }
+
+    #pocik img{
+        max-width: 333px;
+        margin: 18px 55px;
+    }
+
+    .slider_item{
+        height: 355px;
+    }
+    .projects__title-media{
+        margin: 64px 0px;
+    }
+
+    .btn__media,
+    .btn__media-err{
+        margin: 38px auto;
+    }
+
+    .footer__content-box{
+        flex-direction: column;
+
+        padding: 67px 150px;
+    }
+    .footer__contact-text{
+        padding: 21px 0px;
+    }
+}
+
+@media (max-width: 630px) {
+    .skills__languages-item {
+        margin: 0px 0px 40px;
+    }
+
+    #pocik img{
+        max-width: 290px;
+        margin: 18px 70px;
+    }
+    .sheep__text{
+        margin: 75px -32px;
+    }
+
+    .slick-btn{
+        margin: 0px 55px;
+    }
+    .btn__media,
+    .btn__media-err{
+        margin: 3px auto;
+    }
+}
+
+@media (max-width: 558px) {
+    .skills__description-item {
+        margin: 9px 15px 41px
+    }
+    .skills__info{
+        margin-top: 25px;
+        /* margin-left: 30px; */
+    }
+    .skills__languages-item {
+        margin: 0px 0px 25px;
+    }
+
+    #pocik img{
+        max-width: 248px;
+        margin: 36px 97px;
+    }
+
+    .projects__title-media{
+        margin: 49px 0px 68px;
+    }
+}
+
+@media (max-width: 525px) {
+    .skills__languages-item {
+        margin: 0px 0px 20px;
+    }
+    .skills__title-languages,
+    .skills__title-tools{
+        margin: 0px 0px 15px;
+    }
+
+    .sheep{
+        display: none;
+    }
+}
+
+@media (max-width: 470px) {
+    .header__bottom {
+        padding-top: 20px;
+    }
+
+    .skills__info{
+        margin-top: 7px;
+    }
+    .skills__text-languages li,
+    .skills__text-tools li{
+        margin: 5px 13px 0px 0px
+    }
+
+    .btn__media,
+    .btn__media-err{
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 450px){
+    .btn__media,
+    .btn__media-err{
+        margin: -25px auto;
+    }
+
+    .slick-btn{
+        margin: 0px 30px;
+    }
+    .projects__title-media{
+        margin: 31px 0px 86px;
+    }
+
+    .footer__content-box{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 375px){
+    .btn__media,
+    .btn__media-err{
+        margin: -53px auto;
+    }
+}
+
+
+
+@media (min-width: 901px) {
+    .slider{
+        display: none !important;
+    }
+}
+
+@media (min-width: 801px) {
+    .menu ul {
+        display: block !important;
+    }
+
+    .header__menu-media {
+        display: none !important;
+    }
+}
+
+
+/* @media (max-width: 1156px) {
     .services_items{
         display: block;
     }
@@ -48,7 +393,6 @@
         max-width: 100%;
     }
     .footer_info{
-        /* max-width: 465px; */
         margin-bottom: 25px;
     }
 }
@@ -130,7 +474,6 @@
         right: 0;
         margin-top: 20px;
         z-index: 50;
-        /*может слайдер закрыть*/
     }
 
     .menu li {
@@ -198,9 +541,6 @@
 }
 
 @media (max-width: 375px) {
-    /* .advantages-title{
-        white-space: none;
-    } */
     .header_email {
         padding-right: 30px;
     }
@@ -212,6 +552,5 @@
 @media (min-width: 700px) {
     .menu ul {
         display: block !important;
-        /*в приоритете*/
     }
-}
+} */

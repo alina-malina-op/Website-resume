@@ -24,10 +24,15 @@ $(function () {
     $('select').styler();
     
     //меню
-    $('.header_btn-menu').on('click', function (e) {
-        e.preventDefault();
-        $('.menu ul').slideToggle();
-    });
+    // $('.header_btn-menu').on('click', function (e) {
+    //     e.preventDefault();
+    //     $('.menu ul').slideToggle();
+    // });
+
+    $('.header__menu-media').on('click', function (e) {
+      e.preventDefault();
+      $('.menu ul').slideToggle();
+  });
     
     // $('.menu ul').on('click', function (e) {
     //     e.preventDefault();
@@ -81,6 +86,11 @@ $(function () {
   })
 
 
+  // slider
+
+  // $('.projects__img').click(function(){
+  //   $(this).parent().next('.projects__hover').css('display','block')
+  // })
   
 });
 
